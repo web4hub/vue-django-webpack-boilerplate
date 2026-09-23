@@ -1,6 +1,6 @@
 # vue-django-webpack-boilerplate
 
-> [@web4hub](https://github.com/web4hub) has mirrored the [fork](https://github.com/web4hub/vue-django-webpack) to have this repo here. This starterpack has proved useful to many and I thank you for the emails I have received from all of you. The reasoning behind this mirror is that; this is an effort to **support the users** more by developing further on this project. From here on, I am calling on all potential collaborators by making it easier to make [PRs](https://github.com/web4hub/vue-django/pulls) and adding the utility of [Issues](https://github.com/web4hub/vue-django/issues) in this 'new' repo (Of course with the same name 😀 ). Lastly, just so you know, I'll be keeping up with developments in the [`original`](https://github.com/vuejs-templates/webpack).
+> [@web4hub](https://github.com/web4hub) has mirrored the [fork](https://github.com/web4hub/vue-django-webpack) to have this repo here. This starterpack has proved useful to many and I thank you for the emails I have received from all of you. The reasoning behind this mirror is that; this is an effort to **support the users** more by developing further on this project. From here on, I am calling on all potential collaborators by making it easier to make [PRs](https://github.com/web4hub/vue-django-webpack-boilerplate/pulls) and adding the utility of [Issues](https://github.com/web4hub/vue-django-webpack-boilerplate/issues) in this 'new' repo (Of course with the same name 😀 ). Lastly, just so you know, I'll be keeping up with developments in the [`original`](https://github.com/vuejs-templates/webpack).
 
 <p align="center">
   <b>Listed in</b>
@@ -32,7 +32,7 @@ Common topics are discussed in the [docs](http://vuejs-templates.github.io/webpa
 
 [https://vuedjango.herokuapp.com/](https://vuedjango.herokuapp.com/) is a deployed instance of this boilerplate.
 
-[Vue-Django Docs](https://ndagistanley.github.io/vue-django/) offer a more comprehensive documentation.
+[Vue-Django Docs](https://web4hub.github.io/vue-django-webpack-boilerplate/) offer a more comprehensive documentation.
 
 ## Usage of VueDjango
 
@@ -45,8 +45,8 @@ $ npm install -g vue-cli
 ### Set up
 You might want to use ```sudo``` if you encounter permissions error
 ```bash
-$ vue init Web4hub/vue-django-webpack my-project  # Follow the prompts
-$ cd vue-django-Webpack
+$ vue init Web4hub/vue-django-webpack-boilerplate my-project  # Follow the prompts
+$ cd vue-django-webpack-boilerplate
 $ npm install
 ```
 
@@ -82,16 +82,16 @@ At [localhost:8000](http://localhost:8000/) you should have a page exactly like 
 
 If you use `docker` in your workflow, there is a `Dockerfile` in the root directory for you. Simply run
 ```
-docker build -t [vue-django-webpack] .
+docker build -t [vue-django-webpack-boilerplate] .
 ```
 Use your preferred _image name_ in place of the `image-name` in the command. Remember to enter the trailing period before running it.
 
 There is a docker container for vue-django that you can run. Simply run the following command.
 ```bash
-docker run -p 8000:8000 Web4hub/vue-django-webpack
+docker run -p 8000:8000 Web4hub/vue-django-webpack-boilerplate
 ```
 
-Then get to [localhost:8000](http://localhost:8000/). You should have a page exactly like the image above
+Then get to [localhost:8000](http://localhost:8000/web4hub/vue-django-webpack-boilerplate). You should have a page exactly like the image above
 
 ## What's Included
 
@@ -113,7 +113,7 @@ Then get to [localhost:8000](http://localhost:8000/). You should have a page exa
   - Supports all webpack loaders.
   - Easy mock injection.
 
-- `npm run e2e`: End-to-end tests with [Nightwatch](http://nightwatchjs.org/).
+- `npm run e2e`: End-to-end tests with [Nightwatch](http://nightwatchjs.org/vue-django-webpack-boilerplate).
   - Run tests in multiple browsers in parallel.
   - Works with one command out of the box:
     - Selenium and chromedriver dependencies automatically handled.
@@ -128,7 +128,7 @@ Feel free to contribute to this repo.
 To create your own boilerplate, fork this repo or [vue-webpack-boilerplate](https://github.com/vuejs-templates/webpack) and use it with `vue-cli`:
 
 ``` bash
-vue init username/repo my-project
+vue init Web4hub/vue-django-webpack-boilerplate my-project
 ```
 
 ## Backers
