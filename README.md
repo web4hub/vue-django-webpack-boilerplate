@@ -1,6 +1,6 @@
 # vue-django-webpack-boilerplate
 
-> [@NdagiStanley](https://github.com/NdagiStanley) has mirrored the [fork](https://github.com/NdagiStanley/vue-django-fork) to have this repo here. This starterpack has proved useful to many and I thank you for the emails I have received from all of you. The reasoning behind this mirror is that; this is an effort to **support the users** more by developing further on this project. From here on, I am calling on all potential collaborators by making it easier to make [PRs](https://github.com/NdagiStanley/vue-django/pulls) and adding the utility of [Issues](https://github.com/NdagiStanley/vue-django/issues) in this 'new' repo (Of course with the same name 😀 ). Lastly, just so you know, I'll be keeping up with developments in the [`original`](https://github.com/vuejs-templates/webpack).
+> [@web4hub](https://github.com/web4hub) has mirrored the [fork](https://github.com/web4hub/vue-django-fork) to have this repo here. This starterpack has proved useful to many and I thank you for the emails I have received from all of you. The reasoning behind this mirror is that; this is an effort to **support the users** more by developing further on this project. From here on, I am calling on all potential collaborators by making it easier to make [PRs](https://github.com/web4hub/vue-django/pulls) and adding the utility of [Issues](https://github.com/web4hub/vue-django/issues) in this 'new' repo (Of course with the same name 😀 ). Lastly, just so you know, I'll be keeping up with developments in the [`original`](https://github.com/vuejs-templates/webpack).
 
 <p align="center">
   <b>Listed in</b>
@@ -45,7 +45,7 @@ $ npm install -g vue-cli
 ### Set up
 You might want to use ```sudo``` if you encounter permissions error
 ```bash
-$ vue init NdagiStanley/vue-django my-project  # Follow the prompts
+$ vue init Web4hub/vue-django my-project  # Follow the prompts
 $ cd my-project
 $ npm install
 ```
