@@ -12,7 +12,7 @@ module.exports = {
     "name": {
       "type": "string",
       "required": true,
-      "message": "Project name"
+      "message": "vue-django-webpack-boilerplate"
     },
     "version": {
       "type": "string",
